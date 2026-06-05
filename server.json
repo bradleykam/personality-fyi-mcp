@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.bradleykam/personality-fyi-mcp",
+  "description": "MBTI/OEJTS personality tools \u2014 look up types, administer the test, score answers.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/bradleykam/personality-fyi-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://personality.fyi/api",
+  "packages": [
+    {
+      "registryType": "github",
+      "identifier": "bradleykam/personality-fyi-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
