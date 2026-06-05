@@ -10,7 +10,8 @@
   "websiteUrl": "https://personality.fyi/api",
   "packages": [
     {
-      "registryType": "github",
+      "registryType": "oci",
+      "registryBaseUrl": "https://ghcr.io",
       "identifier": "bradleykam/personality-fyi-mcp",
       "version": "1.0.0",
       "transport": {
