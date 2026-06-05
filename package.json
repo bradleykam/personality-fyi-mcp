@@ -1,0 +1,19 @@
+{
+  "name": "@bradleykam/personality-fyi-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for personality.fyi — exposes MBTI type data and OEJTS test scoring to AI agents.",
+  "type": "module",
+  "bin": {
+    "personality-fyi-mcp": "./index.js"
+  },
+  "files": ["index.js", "README.md"],
+  "keywords": ["mcp", "model-context-protocol", "mbti", "personality", "myers-briggs", "oejts", "claude", "ai-agent"],
+  "author": "Brad Kam <hello@personality.fyi>",
+  "license": "MIT",
+  "repository": "https://github.com/bradleykam/personality-fyi-mcp",
+  "homepage": "https://personality.fyi/api",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
